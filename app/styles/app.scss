@@ -1,0 +1,66 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+body{
+  background-color: black;
+}
+
+ul{
+  list-style: none;
+}
+.accordion {
+  display: inline-block;
+  padding: 0;
+}
+
+.head{
+  display: block;
+  background-color: #555;
+  text-decoration: none;
+  color: #632225;
+  font-size:30px;
+  border: 1px solid black;
+  &:hover{
+    text-decoration: none;
+    color: #832225;
+    cursor: pointer;
+  }
+}
+.hide{
+  display: none;
+}
+.content{
+  font-size:20px;
+  color: #eee;
+  padding: 0;
+  text-align: center;
+  &:hover{
+  text-decoration: none;
+  color: #eee;
+  }
+    li{
+      background-color: gray;
+      border: 1px solid #333;
+    }
+  }
+
+  .green{
+    background-color: green;
+  }
+  .green-hover:hover{
+    background-color: green;
+  }
